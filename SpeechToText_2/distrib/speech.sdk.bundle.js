@@ -2065,28 +2065,28 @@ var SpeechConnectionFactory = /** @class */ (function () {
     }
     Object.defineProperty(SpeechConnectionFactory.prototype, "Host", {
         get: function () {
-            return Exports_2.Storage.Local.GetOrAdd("Host", "wss://speech.platform.bing.com");
+			return Exports_2.Storage.Local.GetOrAdd("Host", "wss://westus.stt.speech.microsoft.com");
         },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(SpeechConnectionFactory.prototype, "InteractiveRelativeUri", {
-        get: function () {
-            return Exports_2.Storage.Local.GetOrAdd("InteractiveRelativeUri", "/speech/recognition/interactive/cognitiveservices/v1");
-        },
-        enumerable: true,
-        configurable: true
+        //get: function () {
+        //    return Exports_2.Storage.Local.GetOrAdd("InteractiveRelativeUri", "/speech/recognition/interactive/cognitiveservices/v1");
+        //},
+        //enumerable: true,
+        //configurable: true
     });
     Object.defineProperty(SpeechConnectionFactory.prototype, "ConversationRelativeUri", {
-        get: function () {
-            return Exports_2.Storage.Local.GetOrAdd("ConversationRelativeUri", "/speech/recognition/conversation/cognitiveservices/v1");
-        },
-        enumerable: true,
-        configurable: true
+        //get: function () {
+        //    return Exports_2.Storage.Local.GetOrAdd("ConversationRelativeUri", "/speech/recognition/conversation/cognitiveservices/v1");
+        //},
+        //enumerable: true,
+        //configurable: true
     });
     Object.defineProperty(SpeechConnectionFactory.prototype, "DictationRelativeUri", {
         get: function () {
-            return Exports_2.Storage.Local.GetOrAdd("DictationRelativeUri", "/speech/recognition/dictation/cognitiveservices/v1");
+			return Exports_2.Storage.Local.GetOrAdd("DictationRelativeUri", "/speech/recognition/dictation/cognitiveservices/v1");
         },
         enumerable: true,
         configurable: true

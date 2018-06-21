@@ -229,7 +229,6 @@
     </Content>
     <Content Include="package.json" />
     <Content Include="distrib\Speech.Browser.Sdk.js.map" />
-    <Content Include="distrib\speech.sdk.bundle.js.map" />
     <Content Include="distrib\src\common.browser\ConsoleLoggingListener.js.map" />
     <Content Include="distrib\src\common.browser\Exports.js.map" />
     <Content Include="distrib\src\common.browser\FileAudioSource.js.map" />
@@ -271,7 +270,6 @@
     <Content Include="distrib\src\common\Stream.js.map" />
     <Content Include="distrib\src\sdk\speech.browser\Exports.js.map" />
     <Content Include="distrib\src\sdk\speech.browser\Recognizer.js.map" />
-    <Content Include="distrib\src\sdk\speech.browser\SpeechConnectionFactory.js.map" />
     <Content Include="distrib\src\sdk\speech\CognitiveSubscriptionKeyAuthentication.js.map" />
     <Content Include="distrib\src\sdk\speech\CognitiveTokenAuthentication.js.map" />
     <Content Include="distrib\src\sdk\speech\Exports.js.map" />
