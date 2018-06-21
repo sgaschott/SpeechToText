@@ -57,7 +57,7 @@ var SpeechConnectionFactory = /** @class */ (function () {
     });
     Object.defineProperty(SpeechConnectionFactory.prototype, "DictationRelativeUri", {
         get: function () {
-			return Exports_2.Storage.Local.GetOrAdd("DictationRelativeUri", "/speech/recognition/dictation/cognitiveservices/v1");
+            return Exports_2.Storage.Local.GetOrAdd("DictationRelativeUri", "/speech/recognition/dictation/cognitiveservices/v1");
         },
         enumerable: true,
         configurable: true
